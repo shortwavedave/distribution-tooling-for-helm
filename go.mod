@@ -1,4 +1,4 @@
-module github.com/vmware-labs/distribution-tooling-for-helm
+module github.com/shortwavedave/distribution-tooling-for-helm
 
 go 1.21
 

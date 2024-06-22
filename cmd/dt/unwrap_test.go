@@ -17,10 +17,10 @@ import (
 	"github.com/google/go-containerregistry/pkg/registry"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/vmware-labs/distribution-tooling-for-helm/cmd/dt/unwrap"
-	tu "github.com/vmware-labs/distribution-tooling-for-helm/internal/testutil"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/artifacts"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/log/logrus"
+	"github.com/shortwavedave/distribution-tooling-for-helm/cmd/dt/unwrap"
+	tu "github.com/shortwavedave/distribution-tooling-for-helm/internal/testutil"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/artifacts"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/log/logrus"
 
 	"helm.sh/helm/v3/pkg/repo/repotest"
 )

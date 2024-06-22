@@ -1,6 +1,6 @@
 package logrus
 
-import "github.com/vmware-labs/distribution-tooling-for-helm/pkg/log"
+import "github.com/shortwavedave/distribution-tooling-for-helm/pkg/log"
 
 // SectionLogger defines a SectionLogger implemented by logrus
 type SectionLogger struct {

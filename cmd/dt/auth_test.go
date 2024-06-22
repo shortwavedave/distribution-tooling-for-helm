@@ -5,7 +5,7 @@ import (
 
 	"github.com/google/go-containerregistry/pkg/crane"
 	"github.com/stretchr/testify/require"
-	"github.com/vmware-labs/distribution-tooling-for-helm/internal/testutil"
+	"github.com/shortwavedave/distribution-tooling-for-helm/internal/testutil"
 	"helm.sh/helm/v3/pkg/repo/repotest"
 )
 

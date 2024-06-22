@@ -2,7 +2,7 @@
 package silent
 
 import (
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/log"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/log"
 )
 
 // SectionLogger is a SectionLogger that does not output anything

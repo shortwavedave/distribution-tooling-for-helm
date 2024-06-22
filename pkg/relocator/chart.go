@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/carvel"
-	cu "github.com/vmware-labs/distribution-tooling-for-helm/pkg/chartutils"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/utils"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/carvel"
+	cu "github.com/shortwavedave/distribution-tooling-for-helm/pkg/chartutils"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/utils"
 	"github.com/vmware-tanzu/carvel-imgpkg/pkg/imgpkg/lockconfig"
 )
 

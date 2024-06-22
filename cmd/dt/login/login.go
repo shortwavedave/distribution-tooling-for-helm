@@ -11,8 +11,8 @@ import (
 	"github.com/google/go-containerregistry/pkg/authn"
 	"github.com/google/go-containerregistry/pkg/name"
 	"github.com/spf13/cobra"
-	"github.com/vmware-labs/distribution-tooling-for-helm/cmd/dt/config"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/log"
+	"github.com/shortwavedave/distribution-tooling-for-helm/cmd/dt/config"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/log"
 )
 
 type loginOptions struct {

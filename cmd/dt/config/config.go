@@ -9,11 +9,11 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/imagelock"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/log"
-	ll "github.com/vmware-labs/distribution-tooling-for-helm/pkg/log/logrus"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/imagelock"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/log"
+	ll "github.com/shortwavedave/distribution-tooling-for-helm/pkg/log/logrus"
 
-	pl "github.com/vmware-labs/distribution-tooling-for-helm/pkg/log/pterm"
+	pl "github.com/shortwavedave/distribution-tooling-for-helm/pkg/log/pterm"
 )
 
 // Config defines the configuration of the dt tool

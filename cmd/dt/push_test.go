@@ -13,8 +13,8 @@ import (
 
 	"github.com/google/go-containerregistry/pkg/crane"
 	"github.com/google/go-containerregistry/pkg/registry"
-	tu "github.com/vmware-labs/distribution-tooling-for-helm/internal/testutil"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/imagelock"
+	tu "github.com/shortwavedave/distribution-tooling-for-helm/internal/testutil"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/imagelock"
 )
 
 func (suite *CmdSuite) TestPushCommand() {

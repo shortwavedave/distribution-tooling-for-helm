@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/vmware-labs/distribution-tooling-for-helm/internal/widgets"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/log"
+	"github.com/shortwavedave/distribution-tooling-for-helm/internal/widgets"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/log"
 )
 
 const (

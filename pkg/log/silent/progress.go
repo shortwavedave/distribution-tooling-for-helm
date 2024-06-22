@@ -1,6 +1,6 @@
 package silent
 
-import "github.com/vmware-labs/distribution-tooling-for-helm/pkg/log"
+import "github.com/shortwavedave/distribution-tooling-for-helm/pkg/log"
 
 // ProgressBar defines a widget that supports the ProgressBar interface and does nothing
 type ProgressBar struct {

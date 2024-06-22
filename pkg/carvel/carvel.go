@@ -6,8 +6,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/chartutils"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/imagelock"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/chartutils"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/imagelock"
 	"github.com/vmware-tanzu/carvel-imgpkg/pkg/imgpkg/lockconfig"
 
 	"gopkg.in/yaml.v3"

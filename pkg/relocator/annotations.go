@@ -3,8 +3,8 @@ package relocator
 import (
 	"fmt"
 
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/chartutils"
-	cu "github.com/vmware-labs/distribution-tooling-for-helm/pkg/chartutils"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/chartutils"
+	cu "github.com/shortwavedave/distribution-tooling-for-helm/pkg/chartutils"
 )
 
 // RelocateAnnotations rewrites the image urls in the chart annotations using the provided prefix

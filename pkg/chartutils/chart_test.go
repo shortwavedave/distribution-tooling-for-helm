@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	tu "github.com/vmware-labs/distribution-tooling-for-helm/internal/testutil"
+	tu "github.com/shortwavedave/distribution-tooling-for-helm/internal/testutil"
 	"gopkg.in/yaml.v3"
 
 	"github.com/stretchr/testify/assert"

@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/vmware-labs/distribution-tooling-for-helm/cmd/dt/login"
-	"github.com/vmware-labs/distribution-tooling-for-helm/cmd/dt/logout"
+	"github.com/shortwavedave/distribution-tooling-for-helm/cmd/dt/login"
+	"github.com/shortwavedave/distribution-tooling-for-helm/cmd/dt/logout"
 )
 
 var authCmd = &cobra.Command{

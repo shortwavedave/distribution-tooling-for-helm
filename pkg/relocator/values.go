@@ -3,8 +3,8 @@ package relocator
 import (
 	"fmt"
 
-	cu "github.com/vmware-labs/distribution-tooling-for-helm/pkg/chartutils"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/utils"
+	cu "github.com/shortwavedave/distribution-tooling-for-helm/pkg/chartutils"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/utils"
 
 	"helm.sh/helm/v3/pkg/chartutil"
 )

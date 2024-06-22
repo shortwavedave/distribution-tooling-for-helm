@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/pterm/pterm"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/log"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/utils"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/log"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/utils"
 )
 
 // ProgressBar defines a progress bar with fancy cui effects

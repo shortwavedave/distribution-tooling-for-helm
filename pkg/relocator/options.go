@@ -1,10 +1,10 @@
 package relocator
 
 import (
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/log"
-	silentLog "github.com/vmware-labs/distribution-tooling-for-helm/pkg/log/silent"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/log"
+	silentLog "github.com/shortwavedave/distribution-tooling-for-helm/pkg/log/silent"
 
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/imagelock"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/imagelock"
 )
 
 // RelocateConfig defines the configuration used in the relocator functions

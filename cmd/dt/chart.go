@@ -2,9 +2,9 @@ package main
 
 import (
 	"github.com/spf13/cobra"
-	"github.com/vmware-labs/distribution-tooling-for-helm/cmd/dt/annotate"
-	"github.com/vmware-labs/distribution-tooling-for-helm/cmd/dt/carvelize"
-	"github.com/vmware-labs/distribution-tooling-for-helm/cmd/dt/relocate"
+	"github.com/shortwavedave/distribution-tooling-for-helm/cmd/dt/annotate"
+	"github.com/shortwavedave/distribution-tooling-for-helm/cmd/dt/carvelize"
+	"github.com/shortwavedave/distribution-tooling-for-helm/cmd/dt/relocate"
 )
 
 var chartCmd = &cobra.Command{

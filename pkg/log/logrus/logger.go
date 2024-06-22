@@ -6,7 +6,7 @@ import (
 	"io"
 
 	"github.com/sirupsen/logrus"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/log"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/log"
 )
 
 // Logger defines a Logger implemented by logrus

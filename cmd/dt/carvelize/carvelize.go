@@ -8,16 +8,16 @@ import (
 	"path/filepath"
 
 	"github.com/spf13/cobra"
-	"github.com/vmware-labs/distribution-tooling-for-helm/cmd/dt/config"
-	"github.com/vmware-labs/distribution-tooling-for-helm/cmd/dt/lock"
-	"github.com/vmware-labs/distribution-tooling-for-helm/cmd/dt/verify"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/carvel"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/chartutils"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/imagelock"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/log"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/log/silent"
+	"github.com/shortwavedave/distribution-tooling-for-helm/cmd/dt/config"
+	"github.com/shortwavedave/distribution-tooling-for-helm/cmd/dt/lock"
+	"github.com/shortwavedave/distribution-tooling-for-helm/cmd/dt/verify"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/carvel"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/chartutils"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/imagelock"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/log"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/log/silent"
 
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/utils"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/utils"
 )
 
 // NewCmd builds a new carvelize command

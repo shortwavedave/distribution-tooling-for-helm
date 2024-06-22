@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/vmware-labs/distribution-tooling-for-helm/cmd/dt/config"
+	"github.com/shortwavedave/distribution-tooling-for-helm/cmd/dt/config"
 )
 
 func main() {

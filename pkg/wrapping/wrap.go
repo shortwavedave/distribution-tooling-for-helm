@@ -6,10 +6,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/artifacts"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/chartutils"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/imagelock"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/utils"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/artifacts"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/chartutils"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/imagelock"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/utils"
 
 	"helm.sh/helm/v3/pkg/chart/loader"
 )

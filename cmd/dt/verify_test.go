@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/opencontainers/go-digest"
-	tu "github.com/vmware-labs/distribution-tooling-for-helm/internal/testutil"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/imagelock"
+	tu "github.com/shortwavedave/distribution-tooling-for-helm/internal/testutil"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/imagelock"
 )
 
 func (suite *CmdSuite) TestVerifyCommand() {

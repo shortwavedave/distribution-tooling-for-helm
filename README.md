@@ -31,7 +31,7 @@ This tool builds on [HIP-15](https://github.com/helm/community/blob/main/hips/hi
 Provided you have [Helm](https://helm.sh) then you can install this tool as a plugin:
 
 ```console
-$ helm plugin install https://github.com/vmware-labs/distribution-tooling-for-helm
+$ helm plugin install https://github.com/shortwavedave/distribution-tooling-for-helm
 ```
 
 > **Note:** Windows installation
@@ -40,7 +40,7 @@ $ helm plugin install https://github.com/vmware-labs/distribution-tooling-for-he
 
 ### Downloading and using standalone
 
-Fetch the latest available release from the [Releases](https://github.com/vmware-labs/distribution-tooling-for-helm/releases) section.
+Fetch the latest available release from the [Releases](https://github.com/shortwavedave/distribution-tooling-for-helm/releases) section.
 
 Note that all the examples below use this tool as a Helm plugin but you can just run it as standalone. Just remove the `helm` command from all those examples.
 
@@ -485,7 +485,7 @@ This can happen when somehow the plugin process installation or removal breaks a
 
 ```console
 $ rm -rf $HOME/Library/Caches/helm/plugins/https-github.com-vmware-labs-distribution-tooling-for-helm
-$ helm plugin install https://github.com/vmware-labs/distribution-tooling-for-helm
+$ helm plugin install https://github.com/shortwavedave/distribution-tooling-for-helm
 ```
 
 ### How does this project relate to the [relok8s](https://github.com/vmware-tanzu/asset-relocation-tool-for-kubernetes)? Does it replace it?

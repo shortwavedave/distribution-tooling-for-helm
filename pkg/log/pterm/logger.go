@@ -7,7 +7,7 @@ import (
 	"os"
 
 	"github.com/pterm/pterm"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/log"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/log"
 )
 
 // NewLogger returns a new Logger implemented by pterm

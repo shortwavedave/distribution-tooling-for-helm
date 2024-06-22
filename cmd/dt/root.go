@@ -6,10 +6,10 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	"github.com/vmware-labs/distribution-tooling-for-helm/cmd/dt/config"
-	"github.com/vmware-labs/distribution-tooling-for-helm/cmd/dt/info"
-	"github.com/vmware-labs/distribution-tooling-for-helm/cmd/dt/unwrap"
-	"github.com/vmware-labs/distribution-tooling-for-helm/cmd/dt/wrap"
+	"github.com/shortwavedave/distribution-tooling-for-helm/cmd/dt/config"
+	"github.com/shortwavedave/distribution-tooling-for-helm/cmd/dt/info"
+	"github.com/shortwavedave/distribution-tooling-for-helm/cmd/dt/unwrap"
+	"github.com/shortwavedave/distribution-tooling-for-helm/cmd/dt/wrap"
 )
 
 var rootCmd = newRootCmd()

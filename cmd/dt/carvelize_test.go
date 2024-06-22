@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	tu "github.com/vmware-labs/distribution-tooling-for-helm/internal/testutil"
-	carvel "github.com/vmware-labs/distribution-tooling-for-helm/pkg/carvel"
+	tu "github.com/shortwavedave/distribution-tooling-for-helm/internal/testutil"
+	carvel "github.com/shortwavedave/distribution-tooling-for-helm/pkg/carvel"
 	"gopkg.in/yaml.v3"
 )
 

@@ -9,22 +9,22 @@ import (
 	"regexp"
 
 	"github.com/spf13/cobra"
-	"github.com/vmware-labs/distribution-tooling-for-helm/cmd/dt/config"
-	"github.com/vmware-labs/distribution-tooling-for-helm/cmd/dt/push"
-	"github.com/vmware-labs/distribution-tooling-for-helm/cmd/dt/verify"
-	"github.com/vmware-labs/distribution-tooling-for-helm/cmd/dt/wrap"
-	"github.com/vmware-labs/distribution-tooling-for-helm/internal/widgets"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/artifacts"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/chartutils"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/imagelock"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/log"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/log/silent"
+	"github.com/shortwavedave/distribution-tooling-for-helm/cmd/dt/config"
+	"github.com/shortwavedave/distribution-tooling-for-helm/cmd/dt/push"
+	"github.com/shortwavedave/distribution-tooling-for-helm/cmd/dt/verify"
+	"github.com/shortwavedave/distribution-tooling-for-helm/cmd/dt/wrap"
+	"github.com/shortwavedave/distribution-tooling-for-helm/internal/widgets"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/artifacts"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/chartutils"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/imagelock"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/log"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/log/silent"
 
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/log/logrus"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/log/logrus"
 
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/relocator"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/utils"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/wrapping"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/relocator"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/utils"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/wrapping"
 )
 
 var (

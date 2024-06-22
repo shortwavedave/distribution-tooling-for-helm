@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	tu "github.com/vmware-labs/distribution-tooling-for-helm/internal/testutil"
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/utils"
+	tu "github.com/shortwavedave/distribution-tooling-for-helm/internal/testutil"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/utils"
 )
 
 func (suite *CmdSuite) TestInfoCommand() {

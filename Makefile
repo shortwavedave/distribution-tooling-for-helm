@@ -12,7 +12,7 @@ PATH := $(GOPATH)/bin:$(PATH)
 
 BUILD_DIR := $(abspath ./out)
 
-PKG         := github.com/vmware-labs/distribution-tooling-for-helm
+PKG         := github.com/shortwavedave/distribution-tooling-for-helm
 
 VERSION := $(shell sed -n -e 's/version:[ "]*\([^"]*\).*/\1/p' plugin.yaml)
 

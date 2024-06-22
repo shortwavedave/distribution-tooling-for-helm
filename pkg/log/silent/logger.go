@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/vmware-labs/distribution-tooling-for-helm/pkg/log"
+	"github.com/shortwavedave/distribution-tooling-for-helm/pkg/log"
 )
 
 // Logger defines a logger that does not log anything
